@@ -32,7 +32,7 @@
         "y": 160,
         "wires": [
             [
-                "9998bc405d82b600"
+                "c3a0a31ab77c61cf"
             ]
         ]
     },
@@ -48,8 +48,28 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 400,
-        "y": 160,
+        "x": 420,
+        "y": 240,
         "wires": []
+    },
+    {
+        "id": "c3a0a31ab77c61cf",
+        "type": "function",
+        "z": "dac2f6a2362e5d99",
+        "name": "function 1",
+        "func": "msg.payload = \"Hello world\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "9998bc405d82b600"
+            ]
+        ]
     }
 ]
